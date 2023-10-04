@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Nav() {
   return (
-    <nav className='w-full p-3  mb-4 flex justify-between items-center'>
+    <nav className='w-full  mb-4 flex justify-between items-center'>
         <div>
-            <h1 className='text-xl font-bold uppercase'>
+            <h1 className='text-xl font-bold uppercase p-4'>
                 <a href="/">Morocan Recipes</a>
             </h1>
         </div>
