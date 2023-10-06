@@ -3,7 +3,7 @@ import Card from "./Card"
 
 function Main() {
   return (
-    <main className='px-14 py-6'>
+    <main className='px-16 py-6'>
         <div>
           <a href="#">Login</a>
           <a href="#">Sign Up</a>
@@ -15,7 +15,7 @@ function Main() {
         </header>
 
         <div>
-          <h3 className='font-bold mt-8'>Latest Recipes</h3>
+          <h3 className='font-bold mt-12 text-huge border-b border-gray-300'>Latest Recipes</h3>
           <div className='flex'>
             {/* cards */}
             <Card />
@@ -25,7 +25,7 @@ function Main() {
           </div>
         </div>
 
-          <h3 className='font-bold mt-8'>Most popular Recipes</h3>
+          <h3 className='font-bold mt-12  border-b border-gray-300'>Most popular Recipes</h3>
           <div>
             {/* cards */}
             <Card/>

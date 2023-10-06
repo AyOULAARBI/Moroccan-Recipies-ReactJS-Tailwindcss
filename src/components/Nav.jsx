@@ -8,7 +8,7 @@ export default function Nav() {
                 <a href="/">Morocan Recipes</a>
             </h1>
         </div>
-        <ul className='w-full flex justify-around '>
+        <ul className='w-full flex justify-around -space-x-12 '>
 
           <li className='text-gray-700 font-bold'>
             <a href="#">
